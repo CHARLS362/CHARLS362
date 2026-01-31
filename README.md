@@ -26,7 +26,7 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="60%">
 
 <!-- Code Snippet in iOS Terminal Style -->
 <div align="center">
