@@ -124,16 +124,16 @@
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 
-<!-- ✅ CORREGIDO: username=CHARLS362 -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CHARLS362&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="GitHub Stats" />
+<!-- GitHub Stats - Versión mejorada con parámetros adicionales -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CHARLS362&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&border_radius=10&count_private=false&include_all_commits=true&custom_title=GitHub%20Stats" alt="GitHub Stats" />
 
-<!-- ✅ CORREGIDO: user=CHARLS362 -->
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=CHARLS362&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&border_radius=10" alt="GitHub Streak" />
+<!-- Streak Stats - URL alternativa más confiable -->
+<img width="49%" src="https://streak-stats.demolab.com/?user=CHARLS362&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&border_radius=10" alt="GitHub Streak" />
 
-<!-- ✅ CORREGIDO: username=CHARLS362 -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHARLS362&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&langs_count=8" alt="Top Languages" />
+<!-- Top Languages - Con exclusiones para mejor precisión -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHARLS362&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&langs_count=8&hide=html,css&exclude_repo=fork" alt="Top Languages" />
 
-<!-- ✅ CORREGIDO: username=CHARLS362 -->
+<!-- GitHub Trophies -->
 <img width="49%" src="https://github-profile-trophy.vercel.app/?username=CHARLS362&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 
 </div>
@@ -141,16 +141,33 @@
 <!-- Contribution Graph -->
 <br>
 
-<!-- ✅ CORREGIDO: username=CHARLS362 -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=CHARLS362&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&area_color=58A6FF" width="100%" alt="Contribution Graph" />
+<!-- Activity Graph - Versión mejorada -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=CHARLS362&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&area_color=58A6FF&custom_title=Contribution%20Activity" width="100%" alt="Contribution Graph" />
 
-<!-- Snake Animation (Opcional - requiere configuración adicional) -->
-<!-- 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CHARLS362/CHARLS362/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CHARLS362/CHARLS362/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CHARLS362/CHARLS362/output/github-contribution-grid-snake.svg">
-</picture>
+<br>
+
+<!-- Estadísticas Alternativas (si las APIs fallan) -->
+<!--
+<table>
+<tr>
+<td align="center">
+<h3>44</h3>
+<p>Repositorios</p>
+</td>
+<td align="center">
+<h3>⭐</h3>
+<p>Stars</p>
+</td>
+<td align="center">
+<h3>🔥</h3>
+<p>Commits 2026</p>
+</td>
+<td align="center">
+<h3>🚀</h3>
+<p>Proyectos</p>
+</td>
+</tr>
+</table>
 -->
 
 </div>
@@ -165,14 +182,14 @@
 <img src="social-animation.svg" alt="Social Animation" />
 
 <p align="center">
+  <a href="https://github.com/CHARLS362">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" />
+  </a>
   <a href="https://linkedin.com/in/carlos-turpo">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn" />
   </a>
   <a href="https://twitter.com/CHARLS362">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter" />
-  </a>
-  <a href="https://github.com/CHARLS362">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" />
   </a>
   <a href="mailto:carlos.turpo@example.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email" />
@@ -182,7 +199,6 @@
 <br>
 
 <!-- Profile Views Counter -->
-<!-- ✅ CORREGIDO: username=CHARLS362 -->
 <img src="https://komarev.com/ghpvc/?username=CHARLS362&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
@@ -241,3 +257,4 @@
 <img src="bottom-animation.svg" width="100%" alt="bottom animation"/>
 
 </div>
+
