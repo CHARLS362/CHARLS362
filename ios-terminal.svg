@@ -1,0 +1,170 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terminal-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1D1D1F;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2C2C2E;stop-opacity:1"/>
+    </linearGradient>
+
+    <filter id="terminal-shadow">
+      <feDropShadow dx="0" dy="20" stdDeviation="40" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+
+    <filter id="terminal-glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Code Syntax Colors (iOS Terminal) -->
+    <style>
+      .keyword { fill: #FF2D55; }
+      .function { fill: #5856D6; }
+      .string { fill: #34C759; }
+      .variable { fill: #007AFF; }
+      .comment { fill: #86868B; }
+      .operator { fill: #FFCC00; }
+    </style>
+  </defs>
+
+  <!-- Terminal Window -->
+  <g filter="url(#terminal-shadow)">
+    <!-- Terminal Border -->
+    <rect x="50" y="50" width="700" height="300" rx="16" 
+          fill="url(#terminal-bg)" 
+          stroke="#3A3A3C" 
+          stroke-width="1"/>
+
+    <!-- Title Bar -->
+    <rect x="50" y="50" width="700" height="40" rx="16" 
+          fill="#2C2C2E"/>
+    <rect x="50" y="74" width="700" height="16" 
+          fill="url(#terminal-bg)"/>
+
+    <!-- Traffic Lights -->
+    <circle cx="74" cy="70" r="6" fill="#FF5F57">
+      <animate attributeName="opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="94" cy="70" r="6" fill="#FFBD2E">
+      <animate attributeName="opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="114" cy="70" r="6" fill="#28CA42">
+      <animate attributeName="opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+
+    <!-- Title -->
+    <text x="400" y="75" 
+          font-family="-apple-system, SF Pro Display, system-ui, sans-serif" 
+          font-size="13" 
+          font-weight="500" 
+          fill="#86868B" 
+          text-anchor="middle">
+      Terminal — carlos@macbook
+    </text>
+
+    <!-- Code Content -->
+    <g font-family="SF Mono, Monaco, Consolas, monospace" font-size="14" filter="url(#terminal-glow)">
+      <!-- Line 1 -->
+      <text x="70" y="120">
+        <tspan class="keyword">const</tspan>
+        <tspan class="variable"> carlos</tspan>
+        <tspan fill="#F5F5F7"> = {</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze"/>
+      </text>
+
+      <!-- Line 2 -->
+      <text x="90" y="145">
+        <tspan fill="#F5F5F7">role: </tspan>
+        <tspan class="string">"Full Stack Developer"</tspan>
+        <tspan fill="#F5F5F7">,</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="0.3s"/>
+      </text>
+
+      <!-- Line 3 -->
+      <text x="90" y="170">
+        <tspan fill="#F5F5F7">location: </tspan>
+        <tspan class="string">"Puno, Peru"</tspan>
+        <tspan fill="#F5F5F7">,</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="0.6s"/>
+      </text>
+
+      <!-- Line 4 -->
+      <text x="90" y="195">
+        <tspan fill="#F5F5F7">passions: [</tspan>
+        <tspan class="string">"Code"</tspan>
+        <tspan fill="#F5F5F7">, </tspan>
+        <tspan class="string">"Innovation"</tspan>
+        <tspan fill="#F5F5F7">, </tspan>
+        <tspan class="string">"Coffee"</tspan>
+        <tspan fill="#F5F5F7">],</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="0.9s"/>
+      </text>
+
+      <!-- Line 5 -->
+      <text x="90" y="220">
+        <tspan fill="#F5F5F7">techStack: {</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="1.2s"/>
+      </text>
+
+      <!-- Line 6 -->
+      <text x="110" y="245">
+        <tspan fill="#F5F5F7">frontend: [</tspan>
+        <tspan class="string">"React"</tspan>
+        <tspan fill="#F5F5F7">, </tspan>
+        <tspan class="string">"Next.js"</tspan>
+        <tspan fill="#F5F5F7">, </tspan>
+        <tspan class="string">"TypeScript"</tspan>
+        <tspan fill="#F5F5F7">],</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="1.5s"/>
+      </text>
+
+      <!-- Line 7 -->
+      <text x="110" y="270">
+        <tspan fill="#F5F5F7">backend: [</tspan>
+        <tspan class="string">"Node.js"</tspan>
+        <tspan fill="#F5F5F7">, </tspan>
+        <tspan class="string">"Python"</tspan>
+        <tspan fill="#F5F5F7">, </tspan>
+        <tspan class="string">"Go"</tspan>
+        <tspan fill="#F5F5F7">]</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="1.8s"/>
+      </text>
+
+      <!-- Line 8 -->
+      <text x="90" y="295">
+        <tspan fill="#F5F5F7">}</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="2.1s"/>
+      </text>
+
+      <!-- Line 9 -->
+      <text x="70" y="320">
+        <tspan fill="#F5F5F7">};</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.1s" fill="freeze" begin="2.4s"/>
+      </text>
+
+      <!-- Cursor -->
+      <rect x="86" y="310" width="8" height="16" fill="#007AFF" rx="2">
+        <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" begin="2.5s"/>
+      </rect>
+    </g>
+
+    <!-- Scan Line Effect -->
+    <rect x="50" y="90" width="700" height="2" fill="#007AFF" opacity="0.1">
+      <animate attributeName="y" values="90;350;90" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Floating Brackets -->
+  <g opacity="0.2">
+    <text x="30" y="100" font-family="SF Mono, monospace" font-size="20" fill="#007AFF">
+      {
+      <animate attributeName="y" values="100;300;100" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="760" y="300" font-family="SF Mono, monospace" font-size="20" fill="#5856D6">
+      }
+      <animate attributeName="y" values="300;100;300" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
