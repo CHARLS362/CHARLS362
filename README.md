@@ -26,14 +26,14 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="80%">
 
 <!-- Code Snippet in iOS Terminal Style -->
 <div align="center">
 
 <br/>
 
-<img src="ios-terminal.svg" width="80%" alt="Terminal"/>
+<img src="ios-terminal.svg" width="90%" alt="Terminal"/>
 
 </div>
 
