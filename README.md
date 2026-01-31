@@ -113,146 +113,62 @@
 
 </div>
 
-<!-- Stats Section - Manual Version -->
+<!-- Stats Section with Glass Morphism Effect -->
 <div align="center">
 
 <img src="stats-divider.svg" width="100%" alt="stats divider"/>
 
-## 📊 GitHub Activity
+## 📊 GitHub Statistics
 
 <img src="stats-animation.svg" alt="Stats Animation" />
 
-<br/>
+<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 
-<!-- Manual Stats Cards -->
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Repositories-44-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Repositories"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Public_Repos-44-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Public Repos"/>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Contributions-Active-58A6FF?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117" alt="Contributions"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Status-Coding-00D26A?style=flat-square&logo=statuspage&logoColor=white" alt="Status"/>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Focus-Full_Stack-58A6FF?style=for-the-badge&logo=stackshare&logoColor=white&labelColor=0D1117" alt="Focus"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Learning-Always-FF6B6B?style=flat-square&logo=bookstack&logoColor=white" alt="Learning"/>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Location-Peru_🇵🇪-58A6FF?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0D1117" alt="Location"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Open_to-Collaborate-4CAF50?style=flat-square&logo=handshake&logoColor=white" alt="Collaborate"/>
-</td>
-</tr>
-</table>
+<!-- GitHub Stats - Versión mejorada con parámetros adicionales -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CHARLS362&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&border_radius=10&count_private=false&include_all_commits=true&custom_title=GitHub%20Stats" alt="GitHub Stats" />
 
-<br/>
+<!-- Streak Stats - URL alternativa más confiable -->
+<img width="49%" src="https://streak-stats.demolab.com/?user=CHARLS362&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&border_radius=10" alt="GitHub Streak" />
 
-<!-- Activity Highlights -->
-<table>
-<tr>
-<td align="center" style="padding: 20px;">
-<h3>🔥</h3>
-<p><b>Coding Streak</b></p>
-<p>Active Developer</p>
-</td>
-<td align="center" style="padding: 20px;">
-<h3>⭐</h3>
-<p><b>Projects</b></p>
-<p>44 Repositories</p>
-</td>
-<td align="center" style="padding: 20px;">
-<h3>💻</h3>
-<p><b>Languages</b></p>
-<p>TypeScript, Python, Go</p>
-</td>
-<td align="center" style="padding: 20px;">
-<h3>🚀</h3>
-<p><b>Specialization</b></p>
-<p>Full Stack Development</p>
-</td>
-</tr>
-</table>
+<!-- Top Languages - Con exclusiones para mejor precisión -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHARLS362&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&langs_count=8&hide=html,css&exclude_repo=fork" alt="Top Languages" />
 
-<br/>
-
-<!-- GitHub Activity Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-Expert-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-Advanced-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-Proficient-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Python-Intermediate-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-</p>
-
-<br/>
-
-<!-- Contribution Visualization -->
-<details>
-<summary><b>📈 Contribution Graph</b></summary>
-<br>
-<p align="center">
-  <i>Visit my <a href="https://github.com/CHARLS362">GitHub profile</a> to see my contribution activity!</i>
-</p>
-<br>
-<p align="center">
-  <img src="https://img.shields.io/badge/2026-Active-58A6FF?style=flat-square" alt="2026"/>
-  <img src="https://img.shields.io/badge/2025-Active-58A6FF?style=flat-square" alt="2025"/>
-  <img src="https://img.shields.io/badge/2024-Active-58A6FF?style=flat-square" alt="2024"/>
-</p>
-</details>
-
-<br/>
-
-<!-- Profile Views Counter (Este sí funciona siempre) -->
-<img src="https://komarev.com/ghpvc/?username=CHARLS362&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
+<!-- GitHub Trophies -->
+<img width="49%" src="https://github-profile-trophy.vercel.app/?username=CHARLS362&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 
 </div>
 
-<!-- Featured Projects Section -->
-<div align="center">
+<!-- Contribution Graph -->
+<br>
 
-<img src="stats-divider.svg" width="100%" alt="divider"/>
+<!-- Activity Graph - Versión mejorada -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=CHARLS362&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&area_color=58A6FF&custom_title=Contribution%20Activity" width="100%" alt="Contribution Graph" />
 
-## 🚀 Featured Projects
+<br>
 
-<br/>
-
+<!-- Estadísticas Alternativas (si las APIs fallan) -->
+<!--
 <table>
 <tr>
-<td width="50%" align="center">
-<h3>🌟 Explore My Work</h3>
-<p>Check out my <a href="https://github.com/CHARLS362?tab=repositories">44 repositories</a> showcasing:</p>
-<br/>
-<p align="left">
-  • 🎨 <b>Frontend Projects</b>: React, Next.js, TypeScript<br/>
-  • ⚙️ <b>Backend Solutions</b>: Node.js, NestJS, Python<br/>
-  • ☁️ <b>DevOps & Cloud</b>: Docker, AWS, Kubernetes<br/>
-  • 🗄️ <b>Database Projects</b>: PostgreSQL, MongoDB<br/>
-  • 🤖 <b>AI & ML</b>: Python, TensorFlow, Data Science<br/>
-</p>
+<td align="center">
+<h3>44</h3>
+<p>Repositorios</p>
 </td>
-<td width="50%" align="center">
-<h3>💡 Recent Focus</h3>
-<br/>
-<p align="left">
-  🔹 Full Stack Web Applications<br/>
-  🔹 Microservices Architecture<br/>
-  🔹 Cloud Infrastructure<br/>
-  🔹 API Development<br/>
-  🔹 Database Design<br/>
-  🔹 DevOps Automation<br/>
-</p>
-<br/>
-<a href="https://github.com/CHARLS362?tab=repositories">
-  <img src="https://img.shields.io/badge/View_All_Projects-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="View Projects"/>
-</a>
+<td align="center">
+<h3>⭐</h3>
+<p>Stars</p>
+</td>
+<td align="center">
+<h3>🔥</h3>
+<p>Commits 2026</p>
+</td>
+<td align="center">
+<h3>🚀</h3>
+<p>Proyectos</p>
 </td>
 </tr>
 </table>
+-->
 
 </div>
 
@@ -282,60 +198,20 @@
 
 <br>
 
-<!-- Social Stats -->
-<p align="center">
-  <img src="https://img.shields.io/github/followers/CHARLS362?label=Followers&style=social" alt="GitHub Followers"/>
-  <img src="https://img.shields.io/github/stars/CHARLS362?label=Stars&style=social" alt="GitHub Stars"/>
-</p>
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=CHARLS362&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
-<!-- Skills Showcase -->
+<!-- Latest Blog Posts -->
 <div align="center">
 
 <img src="blog-divider.svg" width="100%" alt="blog divider"/>
 
-## 🎯 Skills & Expertise
+## 📝 Latest Blog Posts
 
-<br/>
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-### 🎨 Frontend
-- React & Next.js
-- TypeScript & JavaScript
-- Tailwind CSS
-- Responsive Design
-- State Management
-- Component Libraries
-
-</td>
-<td valign="top" width="33%">
-
-### ⚙️ Backend
-- Node.js & NestJS
-- Python & FastAPI
-- GraphQL & REST APIs
-- Microservices
-- Database Design
-- Authentication & Security
-
-</td>
-<td valign="top" width="33%">
-
-### ☁️ DevOps & Cloud
-- Docker & Kubernetes
-- AWS Services
-- CI/CD Pipelines
-- Infrastructure as Code
-- Monitoring & Logging
-- Cloud Architecture
-
-</td>
-</tr>
-</table>
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 </div>
 
@@ -381,4 +257,7 @@
 <img src="bottom-animation.svg" width="100%" alt="bottom animation"/>
 
 </div>
+
+
+
 
