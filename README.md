@@ -28,20 +28,17 @@
 <tr>
 <td width="50%">
 
-```typescript
-const carlos = {
-  code: ["TypeScript", "Python", "Go", "Rust"],
-  technologies: {
-    frontend: ["Next.js", "React", "Tailwind"],
-    backend: ["NestJS", "GraphQL", "Node.js"],
-    cloud: ["AWS", "Docker", "Kubernetes"],
-    tools: ["Storybook", "Git", "VS Code"]
-  },
-  architecture: ["Microservices", "Serverless", "Event-Driven"],
-  currentFocus: "Building scalable solutions",
-  funFact: "I debug with console.log() 🤫"
-};
-```
+<!-- Code Snippet in iOS Terminal Style -->
+<div align="center">
+
+<br/>
+
+<img src="ios-terminal.svg" width="80%" alt="Terminal"/>
+
+</div>
+
+<br/>
+<br/>
 
 </td>
 <td width="50%">
