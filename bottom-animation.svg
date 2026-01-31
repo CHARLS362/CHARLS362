@@ -1,0 +1,81 @@
+<svg width="1200" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bottom-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1">
+        <animate attributeName="stop-color" values="#667eea;#58A6FF;#56CCF2;#F093FB;#667eea" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#56CCF2;stop-opacity:1">
+        <animate attributeName="stop-color" values="#56CCF2;#F093FB;#667eea;#58A6FF;#56CCF2" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="particle-glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="60" fill="transparent"/>
+
+  <!-- Flowing Line -->
+  <path d="M0,30 Q200,10 400,30 T800,30 T1200,30" 
+        stroke="url(#bottom-gradient)" 
+        stroke-width="2" 
+        fill="none"
+        opacity="0.5">
+    <animate attributeName="d" 
+             values="M0,30 Q200,10 400,30 T800,30 T1200,30;
+                     M0,30 Q200,50 400,30 T800,30 T1200,30;
+                     M0,30 Q200,10 400,30 T800,30 T1200,30" 
+             dur="5s" 
+             repeatCount="indefinite"/>
+  </path>
+
+  <!-- Floating Particles -->
+  <g filter="url(#particle-glow)">
+    <circle cx="100" cy="20" r="3" fill="#58A6FF" opacity="0.6">
+      <animate attributeName="cy" values="20;40;20" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="300" cy="35" r="2" fill="#56CCF2" opacity="0.5">
+      <animate attributeName="cy" values="35;15;35" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="500" cy="25" r="4" fill="#F093FB" opacity="0.7">
+      <animate attributeName="cy" values="25;45;25" dur="3.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="700" cy="40" r="2" fill="#667eea" opacity="0.5">
+      <animate attributeName="cy" values="40;20;40" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="900" cy="30" r="3" fill="#58A6FF" opacity="0.6">
+      <animate attributeName="cy" values="30;10;30" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1100" cy="22" r="2" fill="#56CCF2" opacity="0.5">
+      <animate attributeName="cy" values="22;42;22" dur="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Sparkle Effect -->
+  <g opacity="0.8">
+    <polygon points="600,25 602,30 607,30 603,33 605,38 600,35 595,38 597,33 593,30 598,30" fill="#58A6FF">
+      <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 600 30;360 600 30" 
+                        dur="4s" 
+                        repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>

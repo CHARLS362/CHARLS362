@@ -1,0 +1,85 @@
+<svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1">
+        <animate attributeName="stop-color" values="#667eea;#764ba2;#f093fb;#667eea" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1">
+        <animate attributeName="stop-color" values="#764ba2;#f093fb;#667eea;#764ba2" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#58A6FF;#56CCF2;#2F80ED;#58A6FF" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#56CCF2;stop-opacity:1">
+        <animate attributeName="stop-color" values="#56CCF2;#2F80ED;#58A6FF;#56CCF2" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Blur Filter -->
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+    </filter>
+
+    <!-- Glow Effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#0D1117"/>
+  
+  <!-- Animated Blobs -->
+  <circle cx="200" cy="150" r="100" fill="url(#gradient1)" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="cx" values="200;300;200" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="150;100;150" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="1000" cy="150" r="120" fill="url(#gradient2)" opacity="0.3" filter="url(#blur)">
+    <animate attributeName="cx" values="1000;900;1000" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="150;200;150" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main Text -->
+  <text x="600" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="url(#gradient2)" text-anchor="middle" filter="url(#glow)">
+    CARLOS
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="600" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#C9D1D9" text-anchor="middle" opacity="0.8">
+    Full Stack Developer
+  </text>
+
+  <!-- Decorative Lines -->
+  <line x1="400" y1="200" x2="800" y2="200" stroke="url(#gradient2)" stroke-width="2" opacity="0.5">
+    <animate attributeName="x1" values="400;450;400" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="800;750;800" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Floating Particles -->
+  <circle cx="100" cy="50" r="3" fill="#58A6FF" opacity="0.6">
+    <animate attributeName="cy" values="50;250;50" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="1100" cy="250" r="3" fill="#56CCF2" opacity="0.6">
+    <animate attributeName="cy" values="250;50;250" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="300" cy="80" r="2" fill="#F093FB" opacity="0.5">
+    <animate attributeName="cy" values="80;220;80" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="900" cy="220" r="2" fill="#667EEA" opacity="0.5">
+    <animate attributeName="cy" values="220;80;220" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

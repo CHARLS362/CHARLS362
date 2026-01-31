@@ -1,0 +1,91 @@
+<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stats-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#58A6FF;#56CCF2;#2F80ED;#58A6FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#56CCF2;stop-opacity:1">
+        <animate attributeName="stop-color" values="#56CCF2;#2F80ED;#58A6FF;#56CCF2" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="stats-glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="80" fill="transparent"/>
+
+  <!-- Bar Chart Animation -->
+  <g filter="url(#stats-glow)">
+    <!-- Bar 1 -->
+    <rect x="50" y="60" width="40" height="0" fill="#58A6FF" rx="4">
+      <animate attributeName="height" values="0;50;0" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="60;10;60" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Bar 2 -->
+    <rect x="110" y="60" width="40" height="0" fill="#56CCF2" rx="4">
+      <animate attributeName="height" values="0;65;0" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+      <animate attributeName="y" values="60;-5;60" dur="3s" repeatCount="indefinite" begin="0.3s"/>
+    </rect>
+
+    <!-- Bar 3 -->
+    <rect x="170" y="60" width="40" height="0" fill="#2F80ED" rx="4">
+      <animate attributeName="height" values="0;45;0" dur="3s" repeatCount="indefinite" begin="0.6s"/>
+      <animate attributeName="y" values="60;15;60" dur="3s" repeatCount="indefinite" begin="0.6s"/>
+    </rect>
+
+    <!-- Bar 4 -->
+    <rect x="230" y="60" width="40" height="0" fill="#58A6FF" rx="4">
+      <animate attributeName="height" values="0;70;0" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+      <animate attributeName="y" values="60;-10;60" dur="3s" repeatCount="indefinite" begin="0.9s"/>
+    </rect>
+
+    <!-- Bar 5 -->
+    <rect x="290" y="60" width="40" height="0" fill="#56CCF2" rx="4">
+      <animate attributeName="height" values="0;55;0" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="y" values="60;5;60" dur="3s" repeatCount="indefinite" begin="1.2s"/>
+    </rect>
+  </g>
+
+  <!-- Line Graph -->
+  <g opacity="0.5">
+    <polyline points="400,40 450,25 500,35 550,15 600,30 650,20 700,25" 
+              fill="none" 
+              stroke="url(#stats-gradient)" 
+              stroke-width="3"
+              stroke-linecap="round"
+              stroke-dasharray="400"
+              stroke-dashoffset="400">
+      <animate attributeName="stroke-dashoffset" values="400;0;400" dur="5s" repeatCount="indefinite"/>
+    </polyline>
+
+    <!-- Data Points -->
+    <circle cx="400" cy="40" r="4" fill="#58A6FF">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="25" r="4" fill="#56CCF2">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite" begin="0.2s"/>
+    </circle>
+    <circle cx="500" cy="35" r="4" fill="#2F80ED">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+    <circle cx="550" cy="15" r="4" fill="#58A6FF">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="600" cy="30" r="4" fill="#56CCF2">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+    <circle cx="650" cy="20" r="4" fill="#2F80ED">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="700" cy="25" r="4" fill="#58A6FF">
+      <animate attributeName="r" values="4;6;4" dur="1s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+  </g>
+</svg>

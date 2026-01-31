@@ -1,0 +1,33 @@
+<svg width="1200" height="30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="connect-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#F093FB;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#56CCF2;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="30" fill="transparent"/>
+  
+  <!-- Connection Network -->
+  <g opacity="0.5">
+    <line x1="580" y1="15" x2="620" y2="15" stroke="url(#connect-gradient)" stroke-width="2"/>
+    
+    <!-- Nodes -->
+    <circle cx="580" cy="15" r="3" fill="#667eea">
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="15" r="4" fill="#F093FB">
+      <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="620" cy="15" r="3" fill="#56CCF2">
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+  </g>
+
+  <!-- Data Pulse -->
+  <circle cx="580" cy="15" r="3" fill="none" stroke="#667eea" stroke-width="2">
+    <animate attributeName="r" values="3;15;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

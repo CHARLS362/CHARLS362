@@ -1,0 +1,32 @@
+<svg width="1200" height="20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="divider-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:0">
+        <animate attributeName="stop-opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#58A6FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#58A6FF;stop-opacity:0">
+        <animate attributeName="stop-opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="20" fill="transparent"/>
+  
+  <!-- Main Line -->
+  <line x1="0" y1="10" x2="1200" y2="10" stroke="url(#divider-gradient)" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Decorative Dots -->
+  <circle cx="600" cy="10" r="4" fill="#58A6FF">
+    <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="400" cy="10" r="2" fill="#56CCF2">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  
+  <circle cx="800" cy="10" r="2" fill="#56CCF2">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+</svg>

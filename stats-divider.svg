@@ -1,0 +1,46 @@
+<svg width="1200" height="30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stats-div-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58A6FF;stop-opacity:0">
+        <animate attributeName="stop-opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#58A6FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#58A6FF;stop-opacity:0">
+        <animate attributeName="stop-opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="30" fill="transparent"/>
+  
+  <!-- Base Line -->
+  <line x1="0" y1="15" x2="1200" y2="15" stroke="url(#stats-div-gradient)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Mini Bar Chart Pattern -->
+  <g opacity="0.6">
+    <rect x="570" y="10" width="4" height="0" fill="#58A6FF" rx="2">
+      <animate attributeName="height" values="0;10;0" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="10;0;10" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="580" y="10" width="4" height="0" fill="#56CCF2" rx="2">
+      <animate attributeName="height" values="0;15;0" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+      <animate attributeName="y" values="10;-5;10" dur="2s" repeatCount="indefinite" begin="0.2s"/>
+    </rect>
+    <rect x="590" y="10" width="4" height="0" fill="#2F80ED" rx="2">
+      <animate attributeName="height" values="0;12;0" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      <animate attributeName="y" values="10;-2;10" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+    </rect>
+    <rect x="600" y="10" width="4" height="0" fill="#58A6FF" rx="2">
+      <animate attributeName="height" values="0;8;0" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+      <animate attributeName="y" values="10;2;10" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </rect>
+    <rect x="610" y="10" width="4" height="0" fill="#56CCF2" rx="2">
+      <animate attributeName="height" values="0;13;0" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="y" values="10;-3;10" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </rect>
+    <rect x="620" y="10" width="4" height="0" fill="#2F80ED" rx="2">
+      <animate attributeName="height" values="0;11;0" dur="2s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="y" values="10;-1;10" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+  </g>
+</svg>

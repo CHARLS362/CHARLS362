@@ -1,0 +1,43 @@
+<svg width="1200" height="100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="footer-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.3">
+        <animate attributeName="stop-color" values="#667eea;#58A6FF;#56CCF2;#667eea" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#58A6FF;stop-opacity:0.5">
+        <animate attributeName="stop-color" values="#58A6FF;#56CCF2;#F093FB;#58A6FF" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#56CCF2;stop-opacity:0.3">
+        <animate attributeName="stop-color" values="#56CCF2;#F093FB;#667eea;#56CCF2" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Animated Waves -->
+  <path d="M0,50 Q300,20 600,50 T1200,50 L1200,100 L0,100 Z" fill="url(#footer-gradient)" opacity="0.3">
+    <animate attributeName="d" 
+             values="M0,50 Q300,20 600,50 T1200,50 L1200,100 L0,100 Z;
+                     M0,50 Q300,80 600,50 T1200,50 L1200,100 L0,100 Z;
+                     M0,50 Q300,20 600,50 T1200,50 L1200,100 L0,100 Z" 
+             dur="8s" 
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0,60 Q300,30 600,60 T1200,60 L1200,100 L0,100 Z" fill="url(#footer-gradient)" opacity="0.2">
+    <animate attributeName="d" 
+             values="M0,60 Q300,30 600,60 T1200,60 L1200,100 L0,100 Z;
+                     M0,60 Q300,90 600,60 T1200,60 L1200,100 L0,100 Z;
+                     M0,60 Q300,30 600,60 T1200,60 L1200,100 L0,100 Z" 
+             dur="6s" 
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0,70 Q300,40 600,70 T1200,70 L1200,100 L0,100 Z" fill="url(#footer-gradient)" opacity="0.1">
+    <animate attributeName="d" 
+             values="M0,70 Q300,40 600,70 T1200,70 L1200,100 L0,100 Z;
+                     M0,70 Q300,100 600,70 T1200,70 L1200,100 L0,100 Z;
+                     M0,70 Q300,40 600,70 T1200,70 L1200,100 L0,100 Z" 
+             dur="10s" 
+             repeatCount="indefinite"/>
+  </path>
+</svg>
