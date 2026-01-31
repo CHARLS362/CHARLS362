@@ -124,27 +124,34 @@
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=carlos&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="GitHub Stats" />
+<!-- ✅ CORREGIDO: username=CHARLS362 -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=CHARLS362&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="GitHub Stats" />
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=carlos&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&border_radius=10" alt="GitHub Streak" />
+<!-- ✅ CORREGIDO: user=CHARLS362 -->
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=CHARLS362&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&border_radius=10" alt="GitHub Streak" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlos&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&langs_count=8" alt="Top Languages" />
+<!-- ✅ CORREGIDO: username=CHARLS362 -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CHARLS362&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&langs_count=8" alt="Top Languages" />
 
-<img width="49%" src="https://github-profile-trophy.vercel.app/?username=carlos&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+<!-- ✅ CORREGIDO: username=CHARLS362 -->
+<img width="49%" src="https://github-profile-trophy.vercel.app/?username=CHARLS362&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 
 </div>
 
 <!-- Contribution Graph -->
 <br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=carlos&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&area_color=58A6FF" width="100%" alt="Contribution Graph" />
+<!-- ✅ CORREGIDO: username=CHARLS362 -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=CHARLS362&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&area_color=58A6FF" width="100%" alt="Contribution Graph" />
 
-<!-- Snake Animation -->
+<!-- Snake Animation (Opcional - requiere configuración adicional) -->
+<!-- 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/carlos/carlos/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/carlos/carlos/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/carlos/carlos/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CHARLS362/CHARLS362/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CHARLS362/CHARLS362/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/CHARLS362/CHARLS362/output/github-contribution-grid-snake.svg">
 </picture>
+-->
 
 </div>
 
@@ -158,27 +165,25 @@
 <img src="social-animation.svg" alt="Social Animation" />
 
 <p align="center">
-  <a href="https://linkedin.com/in/carlos">
+  <a href="https://linkedin.com/in/carlos-turpo">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn" />
   </a>
-  <a href="https://twitter.com/carlos">
+  <a href="https://twitter.com/CHARLS362">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter" />
   </a>
-  <a href="https://discord.com/users/carlos">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2" alt="Discord" />
+  <a href="https://github.com/CHARLS362">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub" />
   </a>
-  <a href="https://dev.to/carlos">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white&labelColor=0A0A0A" alt="Dev.to" />
-  </a>
-  <a href="https://twitch.tv/carlos">
-    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white&labelColor=9146FF" alt="Twitch" />
+  <a href="mailto:carlos.turpo@example.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email" />
   </a>
 </p>
 
 <br>
 
 <!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=carlos&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
+<!-- ✅ CORREGIDO: username=CHARLS362 -->
+<img src="https://komarev.com/ghpvc/?username=CHARLS362&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
@@ -222,12 +227,17 @@
   <img src="heart-animation.svg" width="20" alt="heart"/>
 </p>
 
+<p align="center">
+  <i>⭐ From <a href="https://github.com/CHARLS362">CHARLS362</a></i>
+</p>
+
 <br/>
 
 <img src="ios-signature.svg" alt="Signature" />
 
 <br/>
 <br/>
+
 <img src="bottom-animation.svg" width="100%" alt="bottom animation"/>
 
 </div>
