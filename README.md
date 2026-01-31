@@ -225,10 +225,12 @@ const carlos = {
   <img src="heart-animation.svg" width="20" alt="heart"/>
 </p>
 
-<p align="center">
-  <i>⭐ From <a href="https://github.com/carlos">carlos</a></i>
-</p>
+<br/>
 
+<img src="ios-signature.svg" alt="Signature" />
+
+<br/>
+<br/>
 <img src="bottom-animation.svg" width="100%" alt="bottom animation"/>
 
 </div>
